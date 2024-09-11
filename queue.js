@@ -1,7 +1,7 @@
 function Queue() {
     this.Collection = []; // Array of queue elements
 
-    this.print = function() {
+    this.queue = function() {
         return this.Collection;
     }
 
@@ -30,9 +30,9 @@ let myQueue = new Queue();
 myQueue.enqueue("Nine");
 myQueue.enqueue("Luna");
 myQueue.enqueue("Bew");
-console.log(myQueue.print());
+console.log(myQueue.queue());
 console.log(myQueue.dequeue());
-console.log(myQueue.print());
+console.log(myQueue.queue());
 console.log(myQueue.dequeue());
-console.log(myQueue.print());
+console.log(myQueue.queue());
 console.log(myQueue.isEmpty());
