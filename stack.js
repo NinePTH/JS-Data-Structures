@@ -1,6 +1,6 @@
 // * Create a stack
 
-var stack = function() {
+var Stack = function() {
     this.count = 0;
     this.storage = {}; // You can use both object and array to store the stack
 
@@ -32,7 +32,7 @@ var stack = function() {
 // * Example implementation
 // This show how to use the stack to solve palindrome problem
 
-let letter = new stack();
+let letter = new Stack();
 let word = "ok";
 let rword = "";
 for (let i = 0; i<word.length; i++){
