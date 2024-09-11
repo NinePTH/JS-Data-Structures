@@ -1,3 +1,5 @@
+// * Create a stack
+
 var stack = function() {
     this.count = 0;
     this.storage = {};
@@ -27,7 +29,7 @@ var stack = function() {
     }
 }
 
-// * Example usage
+// * Example implementation
 // This show how to use the stack to solve palindrome problem
 
 let letter = new stack();
