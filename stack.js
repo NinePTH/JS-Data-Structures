@@ -2,7 +2,7 @@
 
 var stack = function() {
     this.count = 0;
-    this.storage = {};
+    this.storage = {}; // You can use both object and array to store the stack
 
     this.push = function(value) {
         this.storage[this.count] = value;
