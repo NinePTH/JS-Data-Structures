@@ -11,7 +11,7 @@ var Stack = function() {
 
     this.pop = function() {
         if (this.count === 0) {
-            return undefined;
+            return "bruh, that's nothing to pop here";
         }
 
         this.count--;
@@ -21,6 +21,9 @@ var Stack = function() {
     }
 
     this.peek = function() {
+        if (this.count === 0) {
+            return "bruh, that's nothing to peek here";
+        }
         return this.storage[this.count-1]
     }
 
@@ -37,7 +40,6 @@ let word = "ok";
 let rword = "";
 for (let i = 0; i<word.length; i++){
     letter.push(word[i]); 
-    // console.log(letter.storage);
 }
 
 for (let i = 0; i<word.length; i++){
