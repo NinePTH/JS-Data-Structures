@@ -1,3 +1,5 @@
+// * Create a queue
+
 function Queue() {
     this.Collection = []; // Array of queue elements
 
